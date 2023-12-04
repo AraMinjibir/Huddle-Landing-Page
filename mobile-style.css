@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+    
+    
+
+}
+.container {
+    width: 37.5vw;
+    height: 100%;
+    background-color: hsl(257, 40%, 49%);
+    
+}
+.sub-container {
+    border: 2px solid hsl(257, 40%, 49%);
+    width: 100%;
+    height: 100%;
+    background-image: url(./Images/bg-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.sub {
+    padding: 6vw 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+}
+.content {
+    margin-top: -3vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+.head {
+    margin-left: 8vw;
+    margin-top: 2vw;
+    color: hsl(0, 0%, 100%);
+}
+img {
+    width: 30vw;
+    height: 240px;
+}
+.sub-content {
+    width: 800px;
+    margin-top: 5vw;
+    color: hsl(0, 0%, 100%);
+}
+h2 {
+    margin: 2px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+h3 {
+    width: 220px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.down {
+    width: 26vw;
+    margin-top: 2vw;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+button {
+    width: 12vw;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    color:hsl(257, 40%, 49%);
+}
+.but {
+    width: 12vw;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    color:hsl(0, 0%, 100%);
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+ button >a {
+    color:hsl(257, 40%, 49%);
+}
+.fa-brands {
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: hsl(257, 40%, 49%);
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 12px;
+    
+}
+.header {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.heading {
+    color: hsl(0, 0%, 100%);
+    padding: 23px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.fa-regular, .far  {
+    margin-right: 5px;
+}
